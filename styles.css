@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.wrap {
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    font-size: 18px;
+    border: 1px solid grey;
+}
+
+button {
+    width: 100%;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid grey;
+    background: linear-gradient(to bottom right, #3399ff 0%, #0099cc 100%);
+}
+
+button:hover {
+    background-color: red;
+}
+
+input[type=checkbox] {
+    margin-top: 15px;
+}
+
+span.forgot {
+    float: right;
+    margin-top: 10px;
+}
